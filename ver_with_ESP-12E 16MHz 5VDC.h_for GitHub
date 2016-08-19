@@ -279,7 +279,7 @@ byte aa=0, bb=0, cc=0, oldest=0;
 
       // ------------ get BG
       if ( ((c+24) > 28) and ((c+24-29)%6 == 0) and ((c+24)<(28+16*6)) ) { 
-        s2[bb]= ((RXBuffer[n]<<8) | aa) & 0x1FFF; // also must AND 1FFF (see the CTapp mails and your Excell calculations)
+        s2[bb]= ((RXBuffer[n]<<8) | aa) & 0x1FFF; // also must AND 1FFF
         bb++;
       }
 
