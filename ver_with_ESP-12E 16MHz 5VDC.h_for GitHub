@@ -1,4 +1,5 @@
 //ver with ESP-12E and 5VDC 16MHz Pro Mini (wrong delivery)
+//DO NOT USE THIS CODE FOR INSULIN DOSAGE DECISIONS. PROOF OF CONCEPT ONLY!!!
 
 /* Wiring:
  Arduino Pro Mini     BM019
